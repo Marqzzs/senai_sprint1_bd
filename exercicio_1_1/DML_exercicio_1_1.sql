@@ -49,8 +49,3 @@ VALUES
 (
 	2, 'emanoil2665@uorak.com'
 )
-
-
-SELECT * FROM Pessoa;
-SELECT * FROM Telefone;
-SELECT * FROM Email;
