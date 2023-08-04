@@ -1,6 +1,6 @@
 --DML (Data Manipulation Language)
 
-USE Clinica;
+USE Exercicio_1_3;
 
 INSERT INTO Endereco(Logradouro, Numero, CEP)
 Values
@@ -17,7 +17,7 @@ Values
 INSERT INTO Raca(Descricao)
 Values
 (
-	'Pitbull'
+	'Shitzu'
 )
 
 INSERT INTO Dono(NomeDono)

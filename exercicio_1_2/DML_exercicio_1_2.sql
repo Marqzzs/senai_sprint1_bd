@@ -1,5 +1,5 @@
 --DML (Data Manipulation Language)
-USE Locadora;
+USE Exercicio_1_2;
 
 INSERT INTO Cliente(Nome, CPF)
 VALUES
@@ -7,19 +7,19 @@ VALUES
 	'Jose', '80224840088'
 )
 
-INSERT INTO Empresa(NomeEmpresa)
+INSERT INTO Empresa(Nome)
 VALUES
 (
 	'Unidas'
 )
 
-INSERT INTO Marca(NomeMarca)
+INSERT INTO Marca(Nome)
 VALUES
 (
 	'Ferrari'
 )
 
-INSERT INTO Modelo(NomeModelo)
+INSERT INTO Modelo(Nome)
 VALUES
 (
 	'Spider'
@@ -31,7 +31,7 @@ VALUES
 	1, 1, 1, 'BOP9818'
 )
 
-INSERT INTO ALUGUEL(IdVeiculo, IdCliente, Protocolo)
+INSERT INTO Aluguel(IdVeiculo, IdCliente, DataRetirada, DataDevolucao)
 VALUES
 (
 	1, 1, 'BOP9818'

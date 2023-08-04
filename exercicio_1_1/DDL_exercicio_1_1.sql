@@ -8,14 +8,14 @@
 
 --DDL (Data Definition Language)
 
-CREATE DATABASE Pessoas;
+CREATE DATABASE Exercicio_1_1;
 
-USE Pessoas;
+USE Exercicio_1_1;
 
 CREATE TABLE Pessoa
 (
 	IdPessoa INT PRIMARY KEY IDENTITY,
-	NomePessoa VARCHAR(100) NOT NULL,
+	Nome VARCHAR(100) NOT NULL,
 	CNH VARCHAR(11) NOT NULL
 )
 
@@ -30,5 +30,5 @@ CREATE TABLE Email
 (
 	IdEmail INT PRIMARY KEY IDENTITY,
 	IdPessoa INT FOREIGN KEY REFERENCES Pessoa(IdPessoa) NOT NULL,
-	Email VARCHAR(100) NOT NULL
+	Endereco VARCHAR(100) NOT NULL
 )

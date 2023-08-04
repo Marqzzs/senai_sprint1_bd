@@ -20,8 +20,8 @@
 
 --DML (Data Definition language)
 
-CREATE DATABASE Clinica;
-USE Clinica;
+CREATE DATABASE Exercicio_1_3;
+USE Exercicio_1_3;
 
 CREATE TABLE Endereco
 (

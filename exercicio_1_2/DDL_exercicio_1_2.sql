@@ -18,7 +18,7 @@
 
 CREATE DATABASE Locadora;
 
-USE Locadora;
+USE Exercicio_1_2;
 
 CREATE TABLE Cliente
 (
