@@ -6,7 +6,7 @@ Hoje fizemos exercicios relacionados ao MER(Modelagem Entidade Relação), fizem
 
 Aqui está um exemplo:
 
-<img src"/exercicio_1_1/pessoas.drawio.png">
+<img src"/assets/pessoas.drawio.png">
 
 
 <img src"/assets/thumbs-up-double-thumbs-up.gif">
