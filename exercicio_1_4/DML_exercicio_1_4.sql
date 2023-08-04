@@ -14,10 +14,10 @@ VALUES
 	'Jose', 'jose@gmail.com', 'jose134', 'sim'
 )
 
-INSERT INTO Estilos(Nome)
+INSERT INTO EstilosMsc (IdAlbum)
 VALUES
 (
-	'trap'
+	1
 )
 
 INSERT INTO Albuns(idArtista, Titulo, DataLancamento, Localizacao, QtdMinutos, Ativo)
@@ -25,12 +25,5 @@ VALUES
 (
 	1, 'Dos Predios Deluxe', '20/04/2023', 'Sao Paulo', '01:24h', 'sim'
 )
-
-INSERT INTO AlbunsEstilos(IdAlbum, IdEstilo)
-VALUES
-(
-	1, 1
-)
-
 
 SELECT * FROM Artistas;
